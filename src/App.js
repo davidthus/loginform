@@ -2,7 +2,7 @@ import styles from "./App.module.css";
 import Login from "./components/Login";
 
 function App() {
-  return <main class={`${styles.main}`}>
+  return <main className={`${styles.main}`}>
     <Login/>
   </main>;
 }
